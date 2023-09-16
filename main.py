@@ -1,5 +1,5 @@
 from MainMenu import MainMenu
 
-print("Hello and welcome!")
-x = MainMenu.mainMenu()
-print(x)
+
+print("Привет и добро пожаловать!")
+MainMenu.mainMenu()
