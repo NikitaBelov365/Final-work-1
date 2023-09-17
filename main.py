@@ -1,5 +1,4 @@
-from MainMenu import MainMenu
-
+from MainMenu import mainMenu
 
 print("Привет и добро пожаловать!")
-MainMenu.mainMenu()
+mainMenu()
