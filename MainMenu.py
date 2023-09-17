@@ -1,12 +1,12 @@
-from NoteCreating import noteCreating
-from NoteReading import noteReading
+from NoteCreating import note_creating
+from NoteReading import note_reading
 
 
 class MainMenu:
     pass
 
 
-def mainMenu():
+def main_menu():
     print("Что вы хотите сделать:")
     print("Введите 1 чтобы создать заметку.")
     print("Введите 2 чтобы просмотреть заметки.")
@@ -14,6 +14,6 @@ def mainMenu():
     while confirmation not in {'1', '2'}:
         confirmation = input("Введите сюда 1 или 2: ")
     if confirmation == '1':
-        noteCreating()
+        note_creating()
     else:
-        noteReading()
+        note_reading()

@@ -5,7 +5,7 @@ class MarkDownCreating:
     pass
 
 
-def markDownCreating(file):
+def mark_down_creating(file):
     path = os.path.join(os.getcwd(), file)
 
     if os.path.exists(path):

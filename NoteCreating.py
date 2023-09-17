@@ -1,14 +1,14 @@
-from MarkDownCreating import markDownCreating
-from NoteAdding import noteAdding
+from MarkDownCreating import mark_down_creating
+from NoteAdding import note_adding
 
 
 class NoteCreating:
     pass
 
 
-def noteCreating():
+def note_creating():
     file = "database.md"
-    markDownCreating(file)
+    mark_down_creating(file)
     print("Давайте создадим заметку")
     correct = False
     header = ""
@@ -24,4 +24,4 @@ def noteCreating():
             confirmation = input("Введите сюда 1 или 2: ")
         if confirmation == '1':
             correct = True
-    noteAdding(file, header, text)
+    note_adding(file, header, text)

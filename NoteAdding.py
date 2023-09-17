@@ -6,8 +6,8 @@ class NoteAdding:
     pass
 
 
-def noteAdding(fileName, header, text):
-    with open(fileName, 'a+') as file:
+def note_adding(file_name, header, text):
+    with open(file_name, 'a+') as file:
         file.seek(0)
         lines = file.readlines()
         count = len(lines)
